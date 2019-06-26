@@ -7,7 +7,7 @@
 namespace LinCmsTp;
 use think\facade\Config;
 use app\lib\exception\file\FileException;
-abstract class Files
+abstract class File
 {
     //被允许的文件类型列表
     protected $includes;
