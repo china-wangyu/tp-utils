@@ -1,0 +1,23 @@
+{
+  "name": "lin-cms-tp/utils-core",
+  "description": "基于thinkphp的公共类库composer扩展",
+  "authors": [
+    {
+      "name": "wangyu",
+      "email": "china_wangyu@aliyun.com"
+    },
+    {
+      "name": "aliqiqi",
+      "email": "745713611@qq.com"
+    }
+  ],
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "LinCmsTp\\": "src"
+    }
+  },
+  "require": {
+    "php": ">=7.1.0"
+  }
+}
