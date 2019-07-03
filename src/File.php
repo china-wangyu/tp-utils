@@ -6,7 +6,7 @@
 */
 namespace LinCmsTp;
 use think\facade\Config;
-use app\lib\exception\file\FileException;
+use LinCmsTp\exception\FileException;
 abstract class File
 {
     //被允许的文件类型列表
