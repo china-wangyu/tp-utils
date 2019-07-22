@@ -7,7 +7,7 @@
 但是这两者完全耦合了，于是你干脆开发一个上传文件的接口，但是这个接口设计的颇为复杂。此时，次扩展诞生了，帮你一下子解决这个问题。
 首先我们还要继承`file`文件这个基类的实现类必须重写`upload`方法。如实例：
 
-```angular2html
+```php
 class LocalUploader extends File{
 
     //需要重写的文件上传的方法
@@ -21,7 +21,7 @@ class LocalUploader extends File{
 
 ##实操
 首先，我们了解一个file的具体配置
-```angular2html
+```php
     return [
         "store_dir" => './uploads',       # 文件的存储路径
         "single_limit" => 1024 * 1024 * 2, # 单个文件的大小限制，默认2M
@@ -35,7 +35,7 @@ class LocalUploader extends File{
 
 做好这些后，使用`postman`测试一下文件上传。
 上传成功后，得到如果结果：
-```angular2html
+```php
     [
         {
             "id": 19,
