@@ -1,5 +1,5 @@
 # 基于lin-cms-tp5文件上传类扩展
-###概述
+## 概述
 
 在cms的绝大数业务或者功能中，我们都是以数据流的形式来处理数据的，但是有些情况下，比如我们需要存储一个图片，或者一段视频。这些数据都是以文件的形式存在，它们皆以硬盘为载体。
 
@@ -19,7 +19,7 @@ class LocalUploader extends File{
 具体控制器方法可以查看[`lin-cms-tp5`](https://github.com/ChenJinchuang/lin-cms-tp5.git)中上传接口`cms/file`这个方法。
 当需要实现其他的上传类时，如上传到阿里云OSS,我们只需要重新定义个Aliyun类，在类中重新实现这个`upload`方法即可。
 
-##实操
+## 实操
 首先，我们了解一个file的具体配置
 ```php
     return [
